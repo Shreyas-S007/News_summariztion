@@ -17,7 +17,7 @@ This Flask-based AI tool scrapes news articles about specified companies, analyz
 - **Web Scraping**: Requests / BeautifulSoup
 - **Sentiment Analysis**: NLP models (Vader, TextBlob, or custom ML)
 - **Text-to-Speech**: gTTS (Google Text-to-Speech)
-- **Frontend**: Flask-based UI
+- **Frontend**: Streamlit
 
 ## 📚 Project Structure
 
@@ -61,7 +61,7 @@ pip install -r requirements.txt
 python api.py
 
 # In a new terminal, start the frontend (optional)
-python app.py
+streamlit run app.py
 ```
 
 ### 5️⃣ Access the API
